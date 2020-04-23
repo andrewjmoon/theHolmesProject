@@ -7,7 +7,40 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+th {
+  text-align: center;
+  border: 1px solid black;
+  background: #018ded;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+html {
+  background-color: darkcyan;
+}
+
+.chapter-list {
+  margin-top: 15px;
+  max-height: 500px;
+  width: auto;
+  overflow: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.Link {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  list-style-type: none;
+}
+.App {
+  text-align: center;
+  padding: 30px;
 }
